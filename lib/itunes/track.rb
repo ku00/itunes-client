@@ -14,7 +14,8 @@ module Itunes
       :artist,
       :track_count,
       :track_number,
-      :year
+      :year,
+      :time
     ].freeze
 
     FINDER_ATTRIBUTES = [
