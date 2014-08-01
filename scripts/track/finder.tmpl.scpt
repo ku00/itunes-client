@@ -12,7 +12,7 @@ tell application "iTunes"
     set end of props to ("\"artist\":\"" & my escape_quote(artist of specified_track) & "\",")
     set end of props to ("\"track_count\":\"" & track count of specified_track & "\",")
     set end of props to ("\"track_number\":\"" & track number of specified_track & "\",")
-    set end of props to ("\"year\":\"" & year of specified_track & "\"")
+    set end of props to ("\"year\":\"" & year of specified_track & "\",")
     set end of props to ("\"time\":\"" & time of specified_track & "\"")
     set end of props to "}"
 
